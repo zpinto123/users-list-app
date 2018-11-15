@@ -1,9 +1,9 @@
 const errors = {
-  userListFetch: (lang = "EN") => {
+  userListFetchFail: (lang = "EN") => {
     const languages = {
-      EN: "There was a problem fetching the user list. Please try again.",
+      EN: "There was a problem fetching the users list. Please refresh the page.",
       PT:
-        "Houve um problema a mostrar a lista de utilizadores. Por favor tente mais tarde."
+        "Houve um problema a mostrar a lista de utilizadores. Por favor refresque a página."
     };
     return languages[lang];
   }

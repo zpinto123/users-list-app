@@ -1,3 +1,3 @@
 import errors from "./errors";
 
-export { errors };
+export default { errors };

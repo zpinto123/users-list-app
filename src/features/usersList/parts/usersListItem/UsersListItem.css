@@ -1,0 +1,41 @@
+.row {
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #71b4ae;
+  margin: 1px;
+  border-radius: 5px;
+}
+
+.row:hover {
+  background-color: #71b4ce;
+
+}
+
+.selected {
+  background-color: #71b4ce;
+}
+
+.userDisplayName {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.userDetailsContainer {
+  background-color: #86d6cc;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.userIdText {
+  color: white;
+}
+
+.userNameText {
+  color: white;
+}

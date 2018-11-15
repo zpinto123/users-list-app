@@ -1,0 +1,9 @@
+.titleContainer {
+  height: 100px;
+  text-align: center;
+}
+
+.titleText {
+  font-size: 2em;
+  line-height: 100px;
+}

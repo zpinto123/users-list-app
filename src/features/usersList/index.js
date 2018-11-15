@@ -8,7 +8,8 @@ import UsersList from "./UsersList";
 const mapStateToProps = state => {
   console.log("mapStateToProps users: ", state.users.list);
   return {
-    usersList: state.users.list
+    usersList: state.users.list,
+    error: state.users.error
   };
 };
 
