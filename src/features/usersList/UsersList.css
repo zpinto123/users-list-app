@@ -1,6 +1,6 @@
 
 .container{
-  flex: 0.5;
+  width: 450px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -8,4 +8,8 @@
 
 .usersList {
   border-radius: 5px;
+}
+
+.searchContainer {
+  margin-bottom: 10px;
 }

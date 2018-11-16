@@ -3,7 +3,7 @@ const api = {
   password: "district",
   base: "https://play.dhis2.org/2.30/api/",
   users: {
-    url: () => getApiUrl("users.json")
+    url: queryString => getApiUrl(`users.json${queryString}`)
   }
 };
 

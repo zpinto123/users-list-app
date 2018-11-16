@@ -1,4 +1,8 @@
 import React, { Fragment } from "react";
+import PropTypes from "prop-types";
+
+import UserDetails from '../userDetails';
+
 import "./UsersListItem.css";
 
 const UsersListItem = ({ userInfo, isSelected, handleClick }) => (
@@ -13,11 +17,19 @@ const UsersListItem = ({ userInfo, isSelected, handleClick }) => (
   </Fragment>
 );
 
-const UserDetails = ({ userInfo: { id, displayName } }) => (
-  <div className="userDetailsContainer">
-    <label className="userIdText">{`id: ${id}`}</label>
-    <label className="userNameText">{`name: ${displayName}`}</label>
-  </div>
-);
+UsersListItem.propTypes = {
+  userInfo: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    surname: PropTypes.string.isRequired,
+    email: PropTypes.string,
+    employer: PropTypes.string
+  }),
+  handleClick: PropTypes.func.isRequired,
+  isSelected: PropTypes.bool
+};
+
+UsersListItem.defaultProps = {
+  isSelected: false,
+};
 
 export default UsersListItem;
