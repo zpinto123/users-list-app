@@ -1,9 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ShallowRenderer from "react-test-renderer/shallow";
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  ReactDOM.render(<App />, div);
-  ReactDOM.unmountComponentAtNode(div);
+import { store } from "../helpers/testsHelper";
+import App from "./App";
+
+describe("<App />", () => {
+  it("renders App correctly", () => {
+    const renderer = new ShallowRenderer();
+    const component = renderer.render(<App store={store} />);
+    expect(component).toMatchSnapshot();
+  });
 });

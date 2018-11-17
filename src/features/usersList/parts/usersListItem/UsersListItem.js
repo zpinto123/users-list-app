@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import PropTypes from "prop-types";
 
-import UserDetails from '../userDetails';
+import UserDetails from "../userDetails";
 
 import "./UsersListItem.css";
 
@@ -29,7 +29,7 @@ UsersListItem.propTypes = {
 };
 
 UsersListItem.defaultProps = {
-  isSelected: false,
+  isSelected: false
 };
 
 export default UsersListItem;

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UsersList /> renders UsersList correctly 1`] = `
+<div
+  className="container"
+>
+  <Title
+    text="Users list"
+  />
+  <div
+    className="usersList"
+  >
+    <div>
+      <div
+        className="searchContainer"
+      >
+        <TextBox
+          handleChange={[Function]}
+          placeholder="Search by surname"
+          type="text"
+        />
+      </div>
+      <UsersListItem
+        handleClick={[Function]}
+        isSelected={false}
+        userInfo={
+          Object {
+            "email": "super@super.com",
+            "employer": "Google",
+            "id": "8sKid80",
+            "name": "José Pinto",
+            "surname": "Pinto",
+          }
+        }
+      />
+      <UsersListItem
+        handleClick={[Function]}
+        isSelected={false}
+        userInfo={
+          Object {
+            "email": "supera@supera.com",
+            "employer": "Microsoft",
+            "id": "8sKids80",
+            "name": "John Sila",
+            "surname": "Sila",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<UserDetails /> renders correctly 1`] = `
+<div
+  className="userDetailsContainer"
+>
+  <div
+    className="userAvatarContainer"
+  >
+    <img
+      alt="José Pinto"
+      className="userAvatar"
+      src="avatar_user.png"
+    />
+  </div>
+  <div
+    className="userInfoContainer"
+  >
+    <div
+      className="userInfo"
+    >
+      <label
+        className="label"
+      >
+        Name: 
+      </label>
+      <label
+        className="value"
+      >
+        José Pinto
+      </label>
+    </div>
+    <div
+      className="userInfo"
+    >
+      <label
+        className="label"
+      >
+        Surname: 
+      </label>
+      <label
+        className="value"
+      >
+        Pinto
+      </label>
+    </div>
+    <div
+      className="userInfo"
+    >
+      <label
+        className="label"
+      >
+        Email: 
+      </label>
+      <label
+        className="value"
+      >
+        super@super.com
+      </label>
+    </div>
+    <div
+      className="userInfo"
+    >
+      <label
+        className="label"
+      >
+        Employer: 
+      </label>
+      <label
+        className="value"
+      >
+        JpanOTECH
+      </label>
+    </div>
+  </div>
+</div>
+`;

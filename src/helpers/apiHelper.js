@@ -1,5 +1,7 @@
 import api from "../services/config";
+
 const STATUS_OK = 200;
+
 const fetchData = (url, method = "GET") =>
   fetch(url, { method, headers: setAuthHeaders() })
     .then(verifyResponse)

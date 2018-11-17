@@ -3,12 +3,12 @@ import { usersApi } from "../../../services";
 
 export const getUsersList = (searchUser = null) => async dispatch => {
   try {
-    const getData = await usersApi.getAllUsers(searchUser);
+    const data = await usersApi.getAllUsers(searchUser);
 
-    if (getData) {
+    if (data) {
       dispatch({
         type: SET_USERS_LIST,
-        payload: getData
+        payload: data
       });
     } else {
       dispatch({
