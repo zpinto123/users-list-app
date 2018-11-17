@@ -15,10 +15,6 @@ A list of users that allows to search by surname.
 
 NOTE: Only tested components and not actions/reducers. The tests were kept simple using snapshoting and not click events, etc.
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [React](https://reactjs.org/) - The web framework used
