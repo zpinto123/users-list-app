@@ -1,7 +1,8 @@
+// On a production app, i would keep these configurations on the .env file
 const api = {
-  username: process.env.REACT_APP_API_USERNAME,
-  password: process.env.REACT_APP_API_PASSWORD,
-  base: process.env.REACT_APP_API_URL,
+  username: "admin",
+  password: "district",
+  base: "https://play.dhis2.org/2.30/api/",
   users: {
     url: queryString => getApiUrl(`users.json${queryString}`)
   }
