@@ -9,7 +9,7 @@ A list of users that allows to search by surname.
 - yarn install/npm install
 - yarn start to run the app!
 
-## Running the tests
+## Running tests
 
 - yarn test/npm test
 
